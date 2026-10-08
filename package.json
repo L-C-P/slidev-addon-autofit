@@ -1,0 +1,33 @@
+{
+  "name": "slidev-addon-autofit",
+  "version": "1.0.0",
+  "type": "module",
+  "keywords": [
+    "slidev-addon",
+    "slidev"
+  ],
+  "description": "Automatically scales slide content down until it fits – like PowerPoint's \"shrink text on overflow\"",
+  "license": "MIT",
+  "author": "Denis Sowa",
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "dependencies": {
+    "@slidev/client": "^52.14.2"
+  },
+  "files": [
+    "slide-top.vue"
+  ],
+  "engines": {
+    "node": ">=18",
+    "slidev": ">=0.52.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L-C-P/slidev-addon-autofit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/L-C-P/slidev-addon-autofit/issues"
+  },
+  "homepage": "https://github.com/L-C-P/slidev-addon-autofit#readme"
+}
